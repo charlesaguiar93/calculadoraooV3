@@ -4,7 +4,11 @@ TrataeMostra.php que, respectivamente,
 contém as classes Calculadora  e TrataeMostra
 neste Script. 
 */
-
+/*- require_once 'config.php'; para acessar o arquivo calculadora.php em outra pasta
+- include - executa o arquivo mesmo que haja erro e executa o arquivo mais de uma vez
+- require - interrompe a execução do script em caso de erro e só executa o arquivo uma vez
+- once - impede que o arquivo seja incluído mais de uma vez
+*/ 
 require_once 'Calculadora.php';
 require_once 'TrataeMostra.php';
 
